@@ -18,7 +18,7 @@ class AuthService {
   //static String BaseUrl = 'http://192.168.114.53:7000';
   //static String BaseUrl = 'http://192.168.114.240:7000';
   // 192.168.114.2
-  static String BaseUrl = 'http://192.168.114.92:7000';
+  static String BaseUrl = 'https://192.168.100.27:7000';
   // static String BaseUrl = 'http://192.168.1.190:7000';
   static Future<void> fetchAndStoreEmail(String loginuser) async {
     try {

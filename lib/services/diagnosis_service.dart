@@ -10,7 +10,7 @@ class DiagnosisService {
   static final _storage = FlutterSecureStorage();
   //static const String baseUrl = 'http://10.0.2.2:7000';
   //static const String baseUrl = 'http://192.168.122.66:7000';
-  static String baseUrl = 'http://192.168.114.92:7000';
+  static String baseUrl = 'http://192.168.100.27:7000';
 
   // Get all diagnoses by sample
   static Future<dynamic> getAllDiagnosis(BuildContext context, String idsample) async {

@@ -96,7 +96,7 @@ class _all_patientsState extends State<all_patients> {
 
       var res = await http.get(
         Uri.parse(
-        'http://192.168.114.92:7000/api/patient/patients_frominst/IPT/$page',
+        'http://192.168.100.27:7000/api/patient/patients_frominst/IPT/$page',
         ),
         headers: {
           'Content-Type': 'application/json',

@@ -13,7 +13,7 @@ class Sample_Service {
   // ignore: non_constant_identifier_names
   //static String BaseUrl = 'http://10.0.2.2:7000';
   // static String BaseUrl = 'http://192.168.122.66:7000';
-  static String BaseUrl = 'http://192.168.114.92:7000';
+  static String BaseUrl = 'http://192.168.100.27:7000';
 
   static getSampleID(context) async {
     try {

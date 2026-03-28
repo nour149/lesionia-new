@@ -14,7 +14,7 @@ class Patient_Serivce {
   //static String BaseUrl = 'http://10.0.2.2:7000';
   //static String BaseUrl = 'http://192.168.122.66:7000';
   //static String BaseUrl = 'http://192.168.114.53:7000';
-  static String BaseUrl = 'http://192.168.114.92:7000';
+  static String BaseUrl = 'http://192.168.100.27:7000';
 
   // --- EXISTING METHOD FOR PATIENT COUNT CHART (All users) ---
   static Future<List<dynamic>?> getPatientCountByLoginUser(BuildContext context) async {

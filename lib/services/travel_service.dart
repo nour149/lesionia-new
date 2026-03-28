@@ -14,7 +14,7 @@ class Travel_Service {
   // static String BaseUrl = 'http://10.0.2.2:7000';
   //static String BaseUrl = 'http://192.168.122.66:7000';
   // static String BaseUrl = 'http://192.168.114.53:7000';
-  static String BaseUrl = 'http://192.168.114.92:7000';
+  static String BaseUrl = 'http://192.168.100.27:7000';
 
 // GET all travel Residencies
   static getalltravel(context ) async {

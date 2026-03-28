@@ -79,7 +79,7 @@ class _PatientPageState extends State<PatientPage> {
       ///   var token = await _storage.read(key: 'token');
       var username = await AuthService.getLoginuser();
       var res = await http.get(
-        Uri.parse('http://192.168.114.92:7000/api/patient/allpage/$page/$username'),
+        Uri.parse('http://192.168.100.27:7000/api/patient/allpage/$page/$username'),
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
