@@ -1,16 +1,45 @@
-# new_lesionia_project
+ Lesionia – Health Flutter App
 
-A new Flutter project.
+ Overview
+Lesionia is a Flutter mobile application designed to manage and structure health-related data through a clean, scalable architecture.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+Problem
+Many users struggle with organizing and tracking health-related information efficiently. Lesionia provides a simple and structured mobile solution.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Features
+- User authentication
+- API integration
+- Clean and responsive UI
+- State management (BLoC/Cubit)
+- Data handling and validation
+- Modular architecture
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+Architecture
+This project follows **Clean Architecture** principles:
+
+- Presentation Layer (UI)
+- Domain Layer (Business Logic)
+- Data Layer (API / Repository)
+
+---
+
+ Tech Stack
+- Flutter / Dart
+- Firebase or REST API (if used)
+- BLoC / Cubit
+- GetIt (Dependency Injection)
+
+---
+
+
+Installation
+git clone https://github.com/nour149/lesionia-new.git
+cd lesionia-new
+flutter pub get
+flutter run
